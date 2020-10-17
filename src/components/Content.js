@@ -1,0 +1,16 @@
+import React from 'react';
+
+
+const Content = () => {
+  
+    return (
+
+
+  <div className="content">
+    <img src="https://i.ibb.co/QHnSfnn/48f123-e35b3cd9585f46da9fe90be0700fa7a7-mv2-d-1200-1500-s-2.jpg" alt="48f123-e35b3cd9585f46da9fe90be0700fa7a7-mv2-d-1200-1500-s-2" border="0"/>
+     Main content
+    
+    </div>);
+    }
+    
+export default Content;
