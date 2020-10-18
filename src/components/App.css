@@ -1,3 +1,8 @@
+.img-dialogs {
+    width: 100px;
+}
+
+
 p {
     
   color: green;
@@ -9,7 +14,8 @@ p {
     
     grid-template-areas:
     "h h"
-    "n c";
+    "n c"
+    "n y";
     
     grid-template-rows: 50px 1fr;
     grid-template-columns: 2fr 10fr;
@@ -23,6 +29,9 @@ p {
 .nav {
     grid-area: n;
     background-color: gray;
+    height: 100vh;
+    width: 100px;
+    padding: 10px;
 }
 
 .content {
@@ -37,3 +46,13 @@ p {
 .content img {
     width: 90px;
 }
+
+.post-item{
+    grid-area:c;
+}
+
+.dialogs {
+    
+    grid-area:c;
+}
+
